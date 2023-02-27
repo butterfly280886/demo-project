@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
                 "html:target/cucumber/report.html",
                 "junit:target/junit/junit-report.xml",
                 "rerun:target/rerun.txt",},
-        features = "src/test/resources/features",
+        features = "src/test/resources/simple_demo.feature",
         publish = true
 
 )
